@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Grade Calculator";
+}
+
+@model CalculatorModel
+
+
+<h1>@ViewData["Title"]</h1>
+
+<p>IS 413 Grade Calculator</p>
+<br />
+<div>
+    <h3>Grades:</h3>
+    <br />
+    <form method="post">
+        <label>Assignments:</label>
+        <input id="numAssignments" asp-for="Assignments" placeholder="0-55%" /><br />
+        <br />
+        <label>Group Project:</label>
+        <input id="numGroupProject" asp-for="GroupProject" placeholder="0-5%" /><br />
+        <br />
+        <label>Quizzes</label>
+        <input id="numQuizzes" asp-for="Quizzes" placeholder="0-10%" /><br />
+        <br />
+        <label>Exams:</label>
+        <input id="numExams" asp-for="Exams" placeholder="0-20%" /><br />
+        <br />
+        <label>INTEX:</label>
+        <input id="numIntex" asp-for="Intex" placeholder="0-10%" /><br />
+        <br />
+        <input id="calcButton" type="submit" value="Calculate" />
+
+       <div asp-validation-summary="All"></div>
+    </form>
+</div>
+
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="js/site.js"></script>

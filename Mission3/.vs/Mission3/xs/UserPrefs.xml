@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{DE920E95-FA8F-4663-9E4C-5BABBCD3E1CF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission3/wwwroot/js/site.js">
+    <Files>
+      <File FileName="Mission3/wwwroot/js/site.js" Line="37" Column="1" />
+      <File FileName="Mission3/Views/Home/Calculator.cshtml" Line="8" Column="28" />
+      <File FileName="Mission3/Views/Home/Index.cshtml" Line="2" Column="37" />
+      <File FileName="Mission3/Models/CalculatorModel.cs" Line="16" Column="1" />
+      <File FileName="Mission3/Views/Shared/_Layout.cshtml" Line="17" Column="60" />
+      <File FileName="Mission3/Controllers/HomeController.cs" Line="14" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission3" expanded="True">
+            <Node name="Mission3" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="site.js" selected="True" />
+                </Node>
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="jquery.js" expanded="True">
+                        <Node name="jquery.min.js" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Mission3 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
